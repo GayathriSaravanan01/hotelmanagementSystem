@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddRestaurantServlet</servlet-name>
+  	<display-name>AddRestaurantServlet</display-name>
+  	<description></description>
+  	<servlet-class>zuci.rms.controller.AddRestaurantServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowRestaurantServlet</servlet-name>
+  	<display-name>ShowRestaurantServlet</display-name>
+  	<description></description>
+  	<servlet-class>zuci.rms.controller.ShowRestaurantServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteRestaurantServlet</servlet-name>
+  	<display-name>DeleteRestaurantServlet</display-name>
+  	<description></description>
+  	<servlet-class>zuci.rms.controller.DeleteRestaurantServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateRestaurantServlet</servlet-name>
+  	<display-name>UpdateRestaurantServlet</display-name>
+  	<description></description>
+  	<servlet-class>zuci.rms.controller.UpdateRestaurantServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchRestaurantServlet</servlet-name>
+  	<display-name>SearchRestaurantServlet</display-name>
+  	<description></description>
+  	<servlet-class>zuci.rms.controller.SearchRestaurantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddRestaurantServlet</servlet-name>
+  	<url-pattern>/addrestaurant</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowRestaurantServlet</servlet-name>
+  	<url-pattern>/ShowRestaurantServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteRestaurantServlet</servlet-name>
+  	<url-pattern>/DeleteRestaurantServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateRestaurantServlet</servlet-name>
+  	<url-pattern>/UpdateRestaurantServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchRestaurantServlet</servlet-name>
+  	<url-pattern>/SearchRestaurantServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
